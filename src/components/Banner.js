@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Bem vinda(a) ao meu portifólio!</span>
                 <h1>{`Olá! Eu sou o Davi`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Fullstack Developer", "Front-end", "Back-end", "Devops Cloud" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Eu tenho 20 anos e sou um amante da tecnologia... Hoje eu sou Desenvolvedor Fullstack, sempre pronto para novos desafios! Acredito que tudo na vida conquistamos com dedicação e por isso tenho procurado ampliar cada vez mais minha curva de aprendizado, meus mais recentes estudos englobam Back-end e Cloud Computing.</p>
-                  <button onClick={() => console.log('connect')}>Clique para conversar comigo!<ArrowRightCircle size={25} /></button>
+                  <button onClick={() =>  window.open("https://wa.me/5561996570568?text=Ol%C3%A1%21+Vim+atrav%C3%A9s+do+seu+portif%C3%B3lio+e+gostaria+de+conversar+com+voc%C3%AA%21")}>Clique para conversar comigo!<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
