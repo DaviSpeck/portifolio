@@ -14,11 +14,13 @@ export const Projects = () => {
       title: "Thiago's Prime",
       description: "Design & Development",
       imgUrl: thiagosPrime,
+      link: "https://thiagosprime.com.br/"
     },
     {
       title: "Vinum Eventos",
       description: "Design & Development",
       imgUrl: vinumEventos,
+      link: "https://www.vinumeventos.com.br/"
     }
   ];
 
