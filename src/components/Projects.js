@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import thiagosPrime from "../assets/img/thiagos-prime.png";
+import vinumEventos from "../assets/img/vinum-eventos.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,10 +11,15 @@ export const Projects = () => {
 
   const projectsFullstack = [
     {
-      title: "Business Startup",
+      title: "Thiago's Prime",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: thiagosPrime,
     },
+    {
+      title: "Vinum Eventos",
+      description: "Design & Development",
+      imgUrl: vinumEventos,
+    }
   ];
 
   const projectsFrontend = [
