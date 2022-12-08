@@ -29,6 +29,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      link: "https://www.vinumeventos.com.br/"
     },
   ];
 
@@ -37,6 +38,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      link: "https://www.vinumeventos.com.br/"
     },
   ];
 
