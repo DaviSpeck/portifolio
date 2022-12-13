@@ -51,6 +51,17 @@ p, a, li, button, ul {
 
 a:hover {
   text-decoration: none;
+  color: white
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
 }
 
 img {
@@ -377,6 +388,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
+  cursor: pointer;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -421,6 +433,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+.nav-link#projects-tabs-tab-fourth {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+}
+.nav-link#projects-tabs-tab-fifth {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-link#projects-tabs-tab-sixth {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+}
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
@@ -458,12 +482,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
+  color: white;
 }
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  color: white;
 }
 .background-image-right {
   top: 20%;
