@@ -7,7 +7,7 @@ import netflixClone from "../assets/img/netflix-clone.png";
 import imgOVNIS from "../assets/img/img-OVNIS.png";
 import imgAccelerometer from "../assets/img/img-accelerometer.png";
 import cyberTech from "../assets/img/cyber-tech.png";
-import kmsCriptografia from "../assets/img/cyber-tech.png";
+import kmsCriptografia from "../assets/img/kmsCriptografia.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
