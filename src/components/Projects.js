@@ -8,6 +8,7 @@ import imgOVNIS from "../assets/img/img-OVNIS.png";
 import imgAccelerometer from "../assets/img/img-accelerometer.png";
 import cyberTech from "../assets/img/cyber-tech.png";
 import kmsCriptografia from "../assets/img/criptografiaKMS.png";
+import experiencein from "../assets/img/experiencein.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -41,6 +42,12 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: cyberTech,
       link: "https://cybertech-davispeck.vercel.app/"
+    },
+    {
+      title: "Experiencein",
+      description: "Design & Development",
+      imgUrl: experiencein,
+      link: "https://experiencein-ten.vercel.app/"
     },
   ];
 
