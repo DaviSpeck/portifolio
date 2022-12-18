@@ -10,6 +10,7 @@ import cyberTech from "../assets/img/cyber-tech.png";
 import kmsCriptografia from "../assets/img/criptografiaKMS.png";
 import experiencein from "../assets/img/experiencein.png";
 import vacinaEmCasa from "../assets/img/vacina-em-casa.png";
+import experienceinAPI from "../assets/img/djangoPython.png";
 import tccIFB from "../assets/img/tccIFB.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -72,6 +73,12 @@ export const Projects = () => {
       imgUrl: kmsCriptografia,
       link: "https://github.com/DaviSpeck/encrypt-with-kms-in-golang"
     },
+    {
+      title: "Experiencein API Django",
+      description: "Study & Development",
+      imgUrl: experienceinAPI,
+      link: "https://github.com/DaviSpeck/experiencein-api"
+    }
   ];
 
   const projectsMobile = [
