@@ -10,7 +10,7 @@ import cyberTech from "../assets/img/cyber-tech.png";
 import kmsCriptografia from "../assets/img/criptografiaKMS.png";
 import experiencein from "../assets/img/experiencein.png";
 import vacinaEmCasa from "../assets/img/vacina-em-casa.png";
-import experienceinAPI from "../assets/img/djangoPython.png";
+import experienceinAPI from "../assets/img/django-python.png";
 import tccIFB from "../assets/img/tccIFB.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
