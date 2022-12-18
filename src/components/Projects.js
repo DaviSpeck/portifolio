@@ -9,6 +9,7 @@ import imgAccelerometer from "../assets/img/img-accelerometer.png";
 import cyberTech from "../assets/img/cyber-tech.png";
 import kmsCriptografia from "../assets/img/criptografiaKMS.png";
 import experiencein from "../assets/img/experiencein.png";
+import vacinaEmCasa from "../assets/img/vacina-em-casa.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,6 +28,12 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: vinumEventos,
       link: "https://www.vinumeventos.com.br/"
+    },
+    {
+      title: "Vacina em Casa",
+      description: "Design & Development",
+      imgUrl: vacinaEmCasa,
+      link: "http://davispeck.pythonanywhere.com/"
     }
   ];
 
