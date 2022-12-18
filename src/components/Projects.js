@@ -10,6 +10,7 @@ import cyberTech from "../assets/img/cyber-tech.png";
 import kmsCriptografia from "../assets/img/criptografiaKMS.png";
 import experiencein from "../assets/img/experiencein.png";
 import vacinaEmCasa from "../assets/img/vacina-em-casa.png";
+import tccIFB from "../assets/img/tccIFB.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -28,6 +29,12 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: vinumEventos,
       link: "https://www.vinumeventos.com.br/"
+    },
+    {
+      title: "TCC IFB",
+      description: "Design & Development",
+      imgUrl: tccIFB,
+      link: "https://github.com/DaviSpeck/TCC_IFB"
     },
     {
       title: "Vacina em Casa",
