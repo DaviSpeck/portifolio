@@ -1,6 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
 import thiagosPrime from "../assets/img/thiagos-prime.png";
 import vinumEventos from "../assets/img/vinum-eventos.png";
 import netflixClone from "../assets/img/netflix-clone.png";
@@ -11,6 +10,7 @@ import kmsCriptografia from "../assets/img/criptografiaKMS.png";
 import experiencein from "../assets/img/experiencein.png";
 import vacinaEmCasa from "../assets/img/vacina-em-casa.png";
 import experienceinAPI from "../assets/img/django-python.png";
+import backendJava from "../assets/img/backend-java.png";
 import tccIFB from "../assets/img/tccIFB.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -78,6 +78,12 @@ export const Projects = () => {
       description: "Study & Development",
       imgUrl: experienceinAPI,
       link: "https://github.com/DaviSpeck/experiencein-api"
+    },
+    {
+      title: "Back-end Bootcamp (Java)",
+      description: "Study & Development",
+      imgUrl: backendJava,
+      link: "https://github.com/DaviSpeck/Back-end_Structure_Bootcamp"
     }
   ];
 
